@@ -1,0 +1,26 @@
+{
+  "name": "quentin-cufonfonts-webfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dev": "^0.1.3",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TracyZUMBU/olaniyi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TracyZUMBU/olaniyi/issues"
+  },
+  "homepage": "https://github.com/TracyZUMBU/olaniyi#readme"
+}
