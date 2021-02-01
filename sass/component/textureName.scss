@@ -1,5 +1,11 @@
 .texture {
-    font-size: 4rem;
+    font-size: 2rem;
+    @include respond(tab-land){
+     
+    }
+    @include respond(tab-port){
+        
+    }
    position: absolute;
    top:2.5%;
    left: 50%;

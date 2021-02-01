@@ -16,12 +16,10 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 75em) {
     html {
-      font-size: 56.25%;
-      color: red; } }
+      font-size: 56.25%; } }
   @media only screen and (max-width: 56.25em) {
     html {
-      font-size: 50%;
-      color: green; } }
+      font-size: 50%; } }
 
 body {
   display: flex;
@@ -64,6 +62,9 @@ body {
   background-size: cover;
   flex: 1;
   width: 100%; }
+  @media only screen and (max-width: 75em) {
+    .side--left {
+      display: none; } }
 
 .side--right {
   background: url(../../black_coily.jpeg);
@@ -72,9 +73,12 @@ body {
   background-size: cover;
   flex: 1;
   width: 100%; }
+  @media only screen and (max-width: 37.5em) {
+    .side--right {
+      background-position: right; } }
 
 .texture {
-  font-size: 4rem;
+  font-size: 2rem;
   position: absolute;
   top: 2.5%;
   left: 50%;
@@ -95,7 +99,7 @@ body {
   text-align: center;
   font-family: "Quentin Regular";
   font-weight: normal;
-  font-size: 6.25rem; }
+  font-size: 3.25rem; }
 
 .logo {
   position: absolute;
@@ -116,10 +120,7 @@ body {
   margin-top: 5rem;
   width: 100%;
   text-align: center;
-  font-size: 22rem; }
-  @media only screen and (max-width: 37.5em) {
-    .olaniyi {
-      color: red; } }
+  font-size: 8rem; }
 
 .laniyi {
   letter-spacing: 6.5rem; }
@@ -131,4 +132,4 @@ body {
 .soon {
   color: white;
   font-family: Montserrat, sans-serif;
-  font-size: 4rem; }
+  font-size: 2rem; }

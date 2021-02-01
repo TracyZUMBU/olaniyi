@@ -14,15 +14,23 @@
 .olaniyi {
   font-family: "Montserrat", sans-serif;
   color: #c59d5f;
-  @include respond(phone){
-      color: red;
-  }
   font-weight: 200;
   margin-top: 5rem;
   width: 100%;
   text-align: center;
-  font-size:22rem;
+  font-size:8rem;
+  @include respond(tab-land){
+    
+  }
+  @include respond(tab-port){
+    
+  }
+  @include respond(phone){
+   
+  }
 }
+  
+
 .laniyi {
   letter-spacing: 6.5rem;
 }
@@ -35,5 +43,11 @@
 .soon {
   color: white;
   font-family: Montserrat, sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
+  @include respond(tab-land){
+    
+  }
+  @include respond(tab-land){
+    
+  }
 }
