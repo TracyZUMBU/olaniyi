@@ -26,12 +26,12 @@ body {
   display: flex;
   height: 100vh;
   position: relative;
+  font-size: 16px;
   // background-repeat: repeat;
   // background-position: unset;
   // background-size: contain;
   @include respond(phone) {
     background-repeat: no-repeat;
-    color: green;
     background-size: cover;
     background-position: right;
   }
