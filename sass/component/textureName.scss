@@ -1,0 +1,17 @@
+.texture {
+   position: absolute;
+   top:2.5%;
+   left: 50%;
+   transform: translateX(-50%);
+   -webkit-transform: translateX(-50%);
+   -moz-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   -o-transform: translateX(-50%);
+   text-align: center;
+   color: white;
+   font-family: Montserrat, sans-serif;
+   width: 100%;
+   font-size: 35px;
+   text-align: center;
+   z-index: 2;
+}
