@@ -17,7 +17,11 @@
 }
 
 .soon {
+
   color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+
 }
 
 .container > h1:nth-child(1) {
@@ -38,14 +42,15 @@
     }
   }
   &--right {
+    @include respond(phone){
+      background-position: right !important;
+    }
     background: url(../../black_coily.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex: 1;
     width: 100%;
-    @include respond(phone){
-      background-position: right;
-    }
+   
   }
 }
